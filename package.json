@@ -1,0 +1,23 @@
+{
+    "name": "sipster",
+    "version": "0.1.0",
+    "author": "Brian White <mscdex@mscdex.net>",
+    "description": "A pjsip binding for node.js",
+    "main": "./lib/main",
+    "dependencies": {
+        "debug": "^3.1.0",
+        "nan": "^2.10.0"
+    },
+    "os": [
+        "!win32"
+    ],
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "keywords": [
+        "sip",
+        "pjsip"
+    ],
+    "scripts": {},
+    "devDependencies": {}
+}
